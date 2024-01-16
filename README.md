@@ -3,26 +3,27 @@ This project is for task list management.
 
 ## Run
 1. **Clone the repository:**
+   
    ```bash
    git clone https://github.com/Kurstan03/To-Do-list.git
    
-2. **Navigate to the project directory:**
+3. **Navigate to the project directory:**
     ```bash
    cd To-Do-list
    
-3. **Database Configuration:**
+4. **Database Configuration:**
    - Make sure to configure your database connection parameters in the `application.properties`
     ```bash
    spring.datasource.url=${DATASOURCE_URL}
    spring.datasource.username=${DATASOURCE_USERNAME}
    spring.datasource.password=${DATASOURCE_PASSWORD}
 
-4. **Build and run the project using Maven:**
+5. **Build and run the project using Maven:**
     ```bash
    mvn clean install
    java -jar target/To-Do-list-0.0.1-SNAPSHOT.jar
    
-5. **Check functionality:**
+6. **Check functionality:**
    - Open a web browser and go to - http://localhost:8080
    - For API Documentation go to - http://localhost:8080/swagger-ui.html 
    
