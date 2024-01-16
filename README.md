@@ -13,7 +13,8 @@ This project is for task list management.
    
 4. **Database Configuration:**
    - Make sure to configure your database connection parameters in the `application.properties`
-   
+
+
     ```bash
    spring.datasource.url=${DATASOURCE_URL}
    spring.datasource.username=${DATASOURCE_USERNAME}
